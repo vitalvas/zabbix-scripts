@@ -1,0 +1,5 @@
+cyrtranslit
+pyzabbix
+requests
+progressbar
+requests

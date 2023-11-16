@@ -1,0 +1,14 @@
+{
+	"zabbix": {
+		"url": "https://zabbix.example.com",
+		"user": "cfrobot",
+		"password": "MykTVKCkdsVwWfNb4oYk"
+	},
+	"telegram": {
+		"bot_token": "1111:AAENav",
+		"chat_ids": [
+			"11111111"
+		]
+	}
+}
+
