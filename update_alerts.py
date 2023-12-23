@@ -31,8 +31,9 @@ class ZabbixAlerts:
         self.patterns = [
             re.compile(r'Interface ([0-9]+)\(\):'), # dlink
             re.compile(r'Interface ([0-9]+)/([0-9]+)\(\):'), # dlink
-            re.compile(r'Slot([0-9]+)/([0-9]+)\(Slot([0-9]+)/([0-9]+)\):'), # dlink
-            re.compile(r'Slot([0-9]+)/\(\):'), # dlink
+            re.compile(r'Interface Slot([0-9]+)/([0-9]+)\(Slot([0-9]+)/([0-9]+)\):'), # dlink
+            re.compile(r'Interface Slot([0-9]+)/([0-9]+)\(\):'), # dlink
+
             re.compile(r'EPON([0-9]+)/([0-9]+):([0-9]+)\(\):'), # bdcom
             re.compile(r'GigaEthernet([0-9]+)/([0-9]+)\(\):'), # bdcom
         ]
